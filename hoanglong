@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công ty Cổ phần Thương mại Đầu tư Hoàng Long</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0055a5;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #0077cc;
+        }
+        section {
+            padding: 20px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Công ty Cổ phần Thương mại Đầu tư Hoàng Long</h1>
+        <p>Chuyên cung cấp các thiết bị máy móc công trình chuyên dùng đã qua sử dụng</p>
+    </header>
+    <nav>
+        <a href="#about">Giới thiệu</a>
+        <a href="#products">Sản phẩm</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+    <section id="about" class="intro">
+        <h2>Giới thiệu về chúng tôi</h2>
+        <p>Công ty Cổ phần Thương mại Đầu tư Hoàng Long là đơn vị uy tín trong lĩnh vực cung cấp thiết bị máy móc công trình chuyên dùng đã qua sử dụng. Với đội ngũ chuyên gia giàu kinh nghiệm, chúng tôi cam kết mang đến cho khách hàng các sản phẩm chất lượng cao, giá cả hợp lý và dịch vụ hỗ trợ tận tình.</p>
+    </section>
+    <section id="products">
+        <h2>Sản phẩm của chúng tôi</h2>
+        <div class="products">
+            <div class="product">
+                <h3>Máy xúc</h3>
+                <img src="https://via.placeholder.com/300" alt="Máy xúc">
+                <p>Máy xúc đã qua sử dụng, chất lượng đảm bảo, giá cả hợp lý.</p>
+            </div>
+            <div class="product">
+                <h3>Xe lu</h3>
+                <img src="https://via.placeholder.com/300" alt="Xe lu">
+                <p>Xe lu công trình phù hợp với mọi loại địa hình.</p>
+            </div>
+            <div class="product">
+                <h3>Cần cẩu</h3>
+                <img src="https://via.placeholder.com/300" alt="Cần cẩu">
+                <p>Cần cẩu công trình chất lượng cao, hiệu suất vượt trội.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Liên hệ với chúng tôi</h2>
+        <p>Địa chỉ: Số 123, Đường Hoàng Long, Quận Nam Từ Liêm, Hà Nội</p>
+        <p>Điện thoại: 0987 654 321</p>
+        <p>Email: info@hoanglong.com.vn</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Công ty Cổ phần Thương mại Đầu tư Hoàng Long. All rights reserved.</p>
+    </footer>
+</body>
+</html>
